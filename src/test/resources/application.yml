@@ -11,6 +11,8 @@ webdriver:
   browser: chrome
   path: chromedriver
   chrome.extraArgs: --remote-allow-origins=*
+  headless: on
+
 
     #acceptInsecureCerts: default value -> on. Possible value: off
     #acceptInsecureCerts: on
